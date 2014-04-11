@@ -87,7 +87,7 @@ ul.social li:nth-child(5) a:hover {
 
 #main {
 	width: 100%;
-	position: absolute;
+	position: fixed;
 	text-align: center;
 	background: rgba(255, 255, 255, 0.19);
 	color: #FFF;
