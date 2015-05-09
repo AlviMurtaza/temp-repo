@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
 
 /*--------------------------*/
 			/*RESET*/
@@ -14,7 +14,7 @@
 /*---------------------------*/
 
 body {
-	font-family: 'Open Sans', sans-serif;;
+	font-family: 'PT Sans', sans-serif;
 	font-size: 100%;
 	padding: 20px;
 	background: url(../images/bgtn.jpg);
@@ -30,15 +30,44 @@ body {
     text-align: center;
 }
 
-h3.name__icon--text .first__letter {
+.name__icon--text .first__letter {
   background: rgba(0, 128, 0, 0.7);
   padding: 20px 33px;
   border-radius: 50%;
 }
 
-h3.name__icon--text .last__letter {
+.name__icon--text .last__letter {
   background: rgba(0, 128, 0, 0.7);
   padding: 20px 27px;
   border-radius: 50%;
 }
 
+.about__me {
+   color: #FFF;
+  font-size: 1rem;
+  margin-left: 4%;
+  margin-top: 27px;
+  letter-spacing: 5px;
+  border-left: 3px solid;
+  padding-left: 3%;
+}
+
+.contact {
+  text-align: right;
+}
+
+ul.social {
+  display: inline-block;
+  list-style: none;
+}
+
+ul.social li {
+  display: inline-block;
+  margin: 0px 24px;
+}
+
+ul.social li a {
+  color: #FFF;
+  padding: 10px;
+  font-size: 1.5rem;
+}
