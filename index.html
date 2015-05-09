@@ -1,42 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="cache-control" content="no-cache" />
-    <meta http-equiv="Pragma" content="no-cache" />
-    <meta http-equiv="Expires" content="-1" />
 	<title>Idrees Alvi</title>
 	<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/default.css" />
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script src="js/modernizr.custom.js"></script>
 </head>
 
-<body>
-	<div id="main">
-
-		<div class="title">
-				<h1>Idrees Alvi</h1>
+	<body>
+		<div class="container">
+		<div class="os-phrases" id="os-phrases">
+			<h2>This site is</h2>
+			<h2>under</h2>
+			<h2>maintainance</h2>
+			<h2>Prepare</h2>
+			<h2>to see</h2>
+			<h2>the good</h2>
+			<h2>in here soon</h2>
+			<h2>Thanks IDRIS ALVI ;)</h2>
 		</div>
-
-		<div class="description">
-			<p>Software Engineer, Web Developer, UI ' UX Designer</p>
-		</div>
-
-		<div class="contact">
-
-			<ul class="social">
-				<li><a href="https://twitter.com/idrisalvi" target="_blank"><i class="fa fa-twitter"></i></a></li>
-
-				<li><a href="https://www.facebook.com/rikovRy" target="_blank"><i class="fa fa-facebook"></i></a></li>
-
-				<li><a href="mailto:iam@idreesalvi.com" target="_blank"><i class="fa fa-envelope"></i></a></li>
-
-				<li><a href="http://in.linkedin.com/pub/idrees-alvi/81/a75/388" target="_blank"><i class="fa fa-linkedin"></i></a></i></li>
-
-				<li><a href="https://plus.google.com/+IdRisAlvi/" target="_blank"><i class="fa fa-google-plus"></i></a></li>
-			</ul>
-
-		</div>
-
 	</div>
-</body>
-</html>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="js/jquery.lettering.js"></script>
+	<script>
+		$(document).ready(function() {
+			$("#os-phrases > h2").lettering('words').children("span").lettering().children("span").lettering();
+		});
+	</script>
+	</body>
+	</html>
