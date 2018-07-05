@@ -1,39 +1,126 @@
+<!--
+	Author: W3layouts
+	Author URL: http://w3layouts.com
+	License: Creative Commons Attribution 3.0 Unported
+	License URL: http://creativecommons.org/licenses/by/3.0/
+-->
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Idrees Alvi</title>
-  <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<title>Idrees Alvi | Profile</title>
+	<link rel="shortcut icon" type="image/png" href="images/favicon.png">
+<!--meta_tags-->	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="keywords" content="idrees alvi, idrisalvi@gmail.com, idreesalvi">
+<!--//meta_tag_keywords-->
+<!-- Custom-Style-Sheet -->
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/><!--style_sheet-->
+	<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+	<link rel="stylesheet" href="css/font-awesome.css"> <!-- Font-Awesome_Icons-CSS -->
+	<link href="//fonts.googleapis.com/css?family=Questrial" rel="stylesheet"><!--online_fonts-->
+	<link href="//fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+<!--//Custom-Style-Sheet -->
 </head>
-
 <body>
-  <main role="main">
+<br/><br/><br/>
+<div class="w3ls-agile-profile">
+	<div class="container">
+		<h2 class="w3ls-me">Hi!, I am <span class="name">idrees alvi</span></h2>
+		<P>Senior Software Engineer at NXP.</p>
+			<br/>
+			<br/>
+		<div id="typed-strings" class="agileits_w3layouts_strings">
+			<p>A <i><span class="w3l-try">UI</span>/<span class="w3l-try">UX</span> Designer.</i></p>
+			<p>A <i><span class="w3l-try">W</span>E<span class="w3l-try">B</span> Developer.</i></p>
+		</div>
+		<span id="typed" style="white-space:pre;"></span>
+		<br/>
+		<p class="w3ls-p">an interactive web developer & designer with the passion for creativity</p>
+		<br/>
+		<a href="#small-dialog1" class="buy btn-wayra w3_play_icon1">About Me</a>
+	</div>
+</div>
+<div class="w3_agileits_social_media">
+	<ul>
+	    <li><a href="https://in.linkedin.com/in/idreesalvi"  target="_blank" class="wthree_dribbble"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+		<li><a href="https://www.facebook.com/rikovRy" target="_blank"  class="wthree_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+		<li><a href="https://twitter.com/idrisalvi"  target="_blank" class="wthree_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>		
+		<li><a href="https://plus.google.com/+IdRisAlvi/" target="_blank" class="wthree_behance"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+		<li><a href="mailto:im@idreesalvi.com" target="_blank" class="wthree_behance"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+	</ul>
+</div>
 
-    <div class="title">
-        <h1>Idrees Alvi</h1>
-    </div>
+<!--pop-up-->
+<div id="small-dialog1" class="mfp-hide">
+	<div class="about" id="about">
+			<div class="person-info-agileits-w3layouts">
+			<h3 class="w3_head w3_head1">About Me <span>I am Idrees Alvi</span></h3>
+			<p><span>Hi!</span> I am passionate about technology like computers, smartphones, web development, design and so much more. What I'm especially passionate about is learning how technology is being used to improve and better the quality of life for humankind.</p>
+				<ul>
+					<li><span>Interests:</span></li>
+					<li>Web Development, Coding, UI/UX, Gaming, Travelling, Photography</li>
+				</ul>
+			</div>
+		<div class="clear"></div>
+	</div>
+</div>
+<br/>
+<br/>
+<footer>&copy; 2018 idreesalvi.com. All Rights Reserved<span style="display: none"> | Design by <a href="http://w3layouts.com" target="=_blank">W3layouts</a></span></footer>
+<!--//pop-up-->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 
-    <div class="description">
-      <p>Software Engineer, Web Developer, UI ' UX ' Designer</p>
-    </div>
+<!-- pop-up-box-js-file -->  
+	<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+<!--//pop-up-box-js-file -->
 
-    <div class="contact">
+<script>
+	$(document).ready(function() {
+	$('.w3_play_icon,.w3_play_icon1,.w3_play_icon2').magnificPopup({
+		type: 'inline',
+		fixedContentPos: false,
+		fixedBgPos: true,
+		overflowY: 'auto',
+		closeBtnInside: true,
+		preloader: false,
+		midClick: true,
+		removalDelay: 300,
+		mainClass: 'my-mfp-zoom-in'
+	});
+																	
+	});
+</script>
+<!-- banner-type-text -->
+	<script src="js/typed.js" type="text/javascript"></script>
+	
+    <script>
+		$(function(){
 
-      <ul class="social">
-        <li><a href="https://twitter.com/idrisalvi" target="_blank"><i class="fa fa-twitter"></i></a></li>
+			$("#typed").typed({
+				// strings: ["Typed.js is a <strong>jQuery</strong> plugin.", "It <em>types</em> out sentences.", "And then deletes them.", "Try it out!"],
+				stringsElement: $('#typed-strings'),
+				typeSpeed: 30,
+				backDelay: 500,
+				loop: false,
+				contentType: 'html', // or text
+				// defaults to false for infinite loop
+				loopCount: false,
+				callback: function(){ foo(); },
+				resetCallback: function() { newTyped(); }
+			});
 
-        <li><a href="https://www.facebook.com/rikovRy" target="_blank"><i class="fa fa-facebook"></i></a></li>
+			$(".reset").click(function(){
+				$("#typed").typed('reset');
+			});
 
-        <li><a href="mailto:iam@idreesalvi.com" target="_blank"><i class="fa fa-envelope"></i></a></li>
+		});
 
-        <li><a href="http://in.linkedin.com/pub/idrees-alvi/81/a75/388" target="_blank"><i class="fa fa-linkedin"></i></a></i></li>
+		function newTyped(){ /* A new typed object */ }
 
-        <li><a href="https://plus.google.com/+IdRisAlvi/" target="_blank"><i class="fa fa-google-plus"></i></a></li>
-      </ul>
+		function foo(){ console.log("Callback"); }
+    </script>
+<!-- //banner-type-text -->
 
-    </div>
-
-  </main>
 </body>
 </html>
